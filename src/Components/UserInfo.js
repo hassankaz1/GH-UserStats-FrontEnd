@@ -11,7 +11,7 @@ function UserInfo({ data, setShowInfo }) {
 
     console.log(data)
 
-    const { repoCount, stargazers, forkCount, avgSize, languages, userLink, avatar, repoLink } = data
+    const { repoCount, stargazers, forkCount, avgSize, languages, userLink, avatar, repoLink, owner } = data
 
     console.log(repoLink)
 
@@ -28,7 +28,7 @@ function UserInfo({ data, setShowInfo }) {
                         <img className="profile-img" src={avatar} alt="" />
                     </div>
                     <div className="right">
-                        <h2 className="name">@username</h2>
+                        <h2 className="name">@{owner}</h2>
                         <a href={userLink} target="_blank">User Link &nbsp;</a>
                         <a href={repoLink} target="_blank">Repositories</a>
                         <p className="info">
