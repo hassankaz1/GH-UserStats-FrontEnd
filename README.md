@@ -16,5 +16,5 @@ We will be calling the backend API created for this project
 
 
 <p align="center">
-  <img src="" alt="animated" />
+  <img src="https://github.com/hassankaz1/GH-UserStats-FrontEnd/blob/master/demo/front-end-demo.gif" alt="animated" />
 </p>
